@@ -17,7 +17,7 @@ int main()
    printf("\nRemainder=%d",rem);
    return 0;
 }
-/* OUTPUT
+/****** OUTPUT********
 /tmp/BjyzMU1YVI.o
 The first value is: 10
 The second value is: 5
