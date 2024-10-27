@@ -1,0 +1,19 @@
+#include <stdio.h>
+//code by tanvimuley
+int main() 
+{
+   int a=10, b=5, sum, sub, prod, divi, rem;
+   printf("The first value is: %d",a);
+   printf("\nThe second value is: %d",b);
+   sum=a+b;
+   sub=a-b;
+   prod=a*b;
+   divi=a/b;
+   rem=a%b;
+   printf("\nSum=%d",sum);
+   printf("\nDifference=%d",sub);
+   printf("\nProduct=%d",prod);
+   printf("\nDivision=%d",divi);
+   printf("\nRemainder=%d",rem);
+   return 0;
+}
