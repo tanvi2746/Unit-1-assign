@@ -1,0 +1,22 @@
+#include <stdio.h>
+//code by tanvimuley
+int main() 
+{
+  int a = 10;
+  printf("Value of a= %d ",a);
+  a+= 10;
+  printf("\nValue of a= %d ",a);
+  a-= 10;
+  printf("\nValue of a= %d ",a);
+  a*= 10;
+  printf("\nValue of a= %d ",a);
+  a/= 10;
+  printf("\nValue of a= %d ",a);
+  return 0;
+}
+/* Output-
+Value of a= 10 
+Value of a= 20 
+Value of a= 10 
+Value of a= 100 
+Value of a= 10 */
