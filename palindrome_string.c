@@ -7,9 +7,8 @@ int main()
    int i, j, end, f=1;
    printf("Enter the word: ");
    scanf("%s",&word);
-   end=strlen(word);
    i=0; 
-   j=end-1;
+   j=strlen(word)-1;
    
    while(i<j)
    {
